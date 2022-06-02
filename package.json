@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "3.0.1",
-  "homepage": "https://mldangelo.com/",
+  "homepage": "https://paigejohnson.me/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/paigej/portfolio-site.git"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
@@ -23,7 +23,7 @@
     "@fortawesome/react-fontawesome": "0.1.14",
     "dayjs": "^1.10.4",
     "gh-pages": "^3.1.0",
-    "node-sass": "^4.14.1",
+    "sass": "^1.52.1",
     "prop-types": "^15.7.2",
     "raw.macro": "^0.4.2",
     "react": "^17.0.1",

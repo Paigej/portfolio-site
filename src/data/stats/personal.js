@@ -5,7 +5,7 @@ const Age = () => {
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const birthTime = new Date('1990-02-05T09:24:00');
+    const birthTime = new Date('2017-09-01T09:24:00');
     setAge(((Date.now() - birthTime) / divisor).toFixed(11));
   };
 
@@ -21,20 +21,19 @@ const Age = () => {
 const data = [
   {
     key: 'age',
-    label: 'Current age',
+    label: 'Years in the Games Industry',
     value: <Age />,
   },
   {
     key: 'countries',
-    label: 'Countries visited',
-    value: 53,
-    link:
-      'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
+    label: 'Titles Shipped',
+    value: 2,
+    link: '/projects',
   },
   {
     key: 'location',
-    label: 'Current city',
-    value: 'New York, NY',
+    label: 'Current Location',
+    value: 'Greater Seattle Area',
   },
 ];
 

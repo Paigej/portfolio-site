@@ -1,48 +1,37 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Halo Infinite',
+    subtitle: 'Subbbby title',
+    image: '/images/projects/HaloInfinite.jpg',
+    link: '/resume',
+    date: '2022',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Lorem Ipsum'
+      + ' Lorem Ipsum'
+      + ' Lorem Ipsum',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: '3D Printed Assitive Pedals for Xbox Copilot',
+    subtitle: '',
+    link: '',
+    image: '/images/projects/3DPedal.jpg',
+    date: '2022',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+      + 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis '
+      + 'nostrud exercitat',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Xbox Attract Mode',
+    subtitle: 'Coming Soon',
+    link: '',
+    image: '/images/projects/AttractMode.jpg',
+    date: '2017',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Coming Soon',
   },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
-  },
+
 ];
 
 export default data;

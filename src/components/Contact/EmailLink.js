@@ -11,7 +11,6 @@ const validateText = (text) => {
 const messages = [
   'hi',
   'hello',
-  'hola',
   'you-can-email-me-at-literally-anything! Really',
   'well, not anything. But most things',
   'like-this',
@@ -19,11 +18,12 @@ const messages = [
   'but not this :(  ',
   'you.can.also.email.me.with.specific.topics.like',
   'just-saying-hi',
-  'please-work-for-us',
+  'please-fix-our-ux',
   'help',
-  'admin',
-  'or-I-really-like-your-website',
-  'thanks',
+  'have-you-tried-figma',
+  'we-can-fix-it-in-ui',
+  'have-you-tried-center-aligning-it',
+  'can-i-give-you-some-feedback',
 ];
 
 const useInterval = (callback, delay) => {
@@ -76,9 +76,9 @@ const EmailLink = () => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
+      <a href={validateText(message) ? `mailto:${message}@paigejohnson.me` : ''}>
         <span>{message}</span>
-        <span>@mldangelo.com</span>
+        <span>@paigejohnson.me</span>
       </a>
     </div>
   );
