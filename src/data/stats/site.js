@@ -18,7 +18,7 @@ const data = [
   {
     label: 'Portfolio Last updated on',
     key: 'pushed_at',
-    link: 'https://github.com/paigej/personal-site/commits',
+    link: 'https://github.com/paigej/portfolio-site/commits',
     format: (x) => dayjs(x).format('MMMM DD, YYYY'),
   },
 
