@@ -13,6 +13,7 @@ const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
+const Pedal = lazy(() => import('./pages/Projects/Pedal'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
 
@@ -22,7 +23,8 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Index} />
         <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
+        <Route exact path="/projects" component={Projects} />
+        <Route path="/projects/pedal" component={Pedal} />
         <Route path="/stats" component={Stats} />
         <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
@@ -31,5 +33,4 @@ const App = () => (
     </Suspense>
   </BrowserRouter>
 );
-
 export default App;

@@ -7,14 +7,12 @@ const data = [
     link: '/resume',
     date: '2022',
     desc:
-      'Lorem Ipsum'
-      + ' Lorem Ipsum'
-      + ' Lorem Ipsum',
+      'Coming Soon',
   },
   {
     title: '3D Printed Assitive Pedals for Xbox Copilot',
     subtitle: '',
-    link: '',
+    link: '/projects/pedal',
     image: '/images/projects/3DPedal.jpg',
     date: '2022',
     desc:
