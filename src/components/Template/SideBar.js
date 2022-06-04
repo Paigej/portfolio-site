@@ -22,6 +22,9 @@ function SideBar() {
         </header>
         <div className={theme}>
           <ThemeBtn />
+          <p className="secret">
+            I also hate burning my eyes out!
+          </p>
         </div>
       </section>
       <section className="blurb">
