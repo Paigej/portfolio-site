@@ -2,12 +2,28 @@
 
 .markdown {
 
+  img {
+    max-width: 70%;
+    height: auto;
+
+    &.headerImage {
+      position:relative;
+      width: 75%;
+      transform: translate(25%,0);
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
   p {
     margin: auto;
   }
-
-  h1 {
-    font-size: .8em;
+  h3 {
+    font-size: 1.4em;
     margin-top: 3em;
   }
+  h1 {
+    font-size: 1em;
+    margin-top: 3em;
+  }
+
 }

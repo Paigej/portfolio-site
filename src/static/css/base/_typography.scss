@@ -70,11 +70,12 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
-	}
-	.secret{
-		color: #eaeaf0;
-		font-size: 0.7em;
-		font-style: italic;
+	
+		&.secret{
+			font-size: 0.7em;
+			font-style: italic;
+			display: var(--displayInDark);
+		}
 	}
 
 	h1, h2, h3, h4, h5, h6 { 

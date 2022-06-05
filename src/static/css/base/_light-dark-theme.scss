@@ -3,6 +3,10 @@ $themes: (
     darkTheme: #242424,
     lightTheme: #ffffff,
   ),
+  bgThemeColor1Swapped: (
+    darkTheme: #ffffff,
+    lightTheme: #242424,
+  ),
   bgThemeColor1Hover: (
     darkTheme: #2f2f2f,
     lightTheme: #eaeaf0,
@@ -16,8 +20,12 @@ $themes: (
     lightTheme: rgba(227, 227, 227, 0.3),
   ),
   textThemeColor1: (
-    darkTheme: #ffffff,
+    darkTheme: #d0d0d0,
     lightTheme: #120a0a,
+  ),
+  textThemeColor1Swapped: (
+    darkTheme: #120a0a,
+    lightTheme: #d0d0d0,
   ),
   textThemeColor2: (
     darkTheme: #dbdbdb,
@@ -30,7 +38,13 @@ $themes: (
   textThemeColorHover3: ( //use this one for over the oposite theme background
   darkTheme: #4670fac8,
   lightTheme: #1c3792d6,
-),
+  ),
+  displayInDark: (
+    lightTheme: none,
+  ),
+  displayInLight: (
+    darkTheme: none,
+  ),
 );
 
 @mixin styles($mode) {

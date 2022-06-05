@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ThemeBtn from './ThemeButton';
-import { useTheme } from '../../utils/useTheme';
 import '../../static/css/main.scss'; // All of our styles
 
 import ContactIcons from '../Contact/ContactIcons';
@@ -9,7 +8,6 @@ import ContactIcons from '../Contact/ContactIcons';
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 function SideBar() {
-  const theme = useTheme();
   return (
     <section id="sidebar">
       <section id="intro">
@@ -20,8 +18,8 @@ function SideBar() {
           <h2>Paige Johnson</h2>
           <p><a href="mailto:paige.l.johns@gmail.com">paige.l.johns@gmail.com</a></p>
         </header>
-        <div className={theme}>
-          <ThemeBtn />
+        <div>
+          <ThemeBtn /><br />
           <p className="secret">
             I also hate burning my eyes out!
           </p>

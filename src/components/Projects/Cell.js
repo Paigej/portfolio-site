@@ -1,22 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
-import { useTheme } from '../../utils/useTheme';
+import useDarkMode from 'use-dark-mode';
 
 const Cell = ({ data }) => {
-  const theme = useTheme();
+  const darkMode = useDarkMode();
+  const imageToDisplay = darkMode.value && data.image_dark ? data.image_dark : data.image;
+  const date = data.year_start ? `${dayjs(data.year_start).format('YYYY')}-${dayjs(data.year_end).format('YYYY')}` : dayjs(data.year_end).format('YYYY');
+
   return (
     <div className="cell-container">
       <article className="mini-post">
         <a href={data.link}>
           <header>
             <h3 href={data.link}>{data.title}</h3>
-            <p className="published">{dayjs(data.date).format('MMMM, YYYY')}</p>
+            <p className="published">{date}</p>
           </header>
         </a>
         <a href={data.link} className="image">
-          {/* TODO fall back to light theme if dark is not defined */}
-          {theme === 'dark-mode' ? <img src={`${process.env.PUBLIC_URL}${data.image_dark}`} alt={data.title} /> : <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />}
+          <img src={`${process.env.PUBLIC_URL}${imageToDisplay}`} alt={data.title} />
         </a>
         <div className="description">
           <a href={data.link}>
@@ -33,7 +35,9 @@ Cell.propTypes = {
     title: PropTypes.string.isRequired,
     link: PropTypes.string,
     image: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
+    image_dark: PropTypes.string.isRequired,
+    year_start: PropTypes.string.isRequired,
+    year_end: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
   }).isRequired,
 };

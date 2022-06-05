@@ -36,3 +36,10 @@
 			}
 
 	}
+
+	.displayInDark {
+		display: var(--displayInDark);
+	}
+	.displayInLight {
+		display: var(--displayInLight);
+	}

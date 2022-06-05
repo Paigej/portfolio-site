@@ -16,6 +16,11 @@ const data = [
     link: '',
   },
   {
+    label: 'Highest Elevation Hiked',
+    value: '19,341 feet',
+    link: '',
+  },
+  {
     label: 'Portfolio Last updated on',
     key: 'pushed_at',
     link: 'https://github.com/paigej/portfolio-site/commits',

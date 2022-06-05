@@ -5,23 +5,23 @@ const data = [
     title: '3D Printed Assistive Pedals for Xbox Copilot',
     subtitle: '',
     link: '/projects/pedal',
-    image: '/images/projects/3DPedal_Light.jpg',
-    image_dark: '/images/projects/3DPedal.jpg',
-    date: '2022',
+    image: '/images/projects/Pedal_Light.jpg',
+    image_dark: '/images/projects/Pedal_Dark.jpg',
+    year_end: '2022',
     desc:
-      '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
-      + 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis '
-      + 'nostrud exercitat',
+      'A fully 3D Printed Pedal designed for people who experience hand or wrist'
+      + 'pain to offload problematic button presses.',
   },
   {
     title: 'Halo Infinite',
-    subtitle: 'Subbbby title',
+    subtitle: '',
     image: '/images/projects/HaloInfinite.jpeg',
     image_dark: '/images/projects/HaloInfinite_dark.jpeg',
     link: '/resume',
-    date: '2022',
+    year_start: '2018',
+    year_end: '2022',
     desc:
-      'Coming Soon',
+      'More Info Coming Soon',
   },
   {
     title: 'Xbox Attract Mode',
@@ -31,7 +31,7 @@ const data = [
     image_dark: '/images/projects/AttractMode.jpg',
     date: '2017',
     desc:
-      'Coming Soon',
+      'More Info Coming Soon',
   },
 ];
 export default data;
