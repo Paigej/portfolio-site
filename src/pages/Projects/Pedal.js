@@ -28,7 +28,7 @@ const Pedal = () => (
     <article className="post markdown" id="pedal">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/projects/pedal">3D Printed Assitive Pedals for Xbox Copilot</Link></h2>
+          <h2 data-testid="heading"><Link to="/projects/pedal">3D Printed Assistive Pedals for Xbox Copilot</Link></h2>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>

@@ -11,7 +11,7 @@ You will find me as a Technical UX Designer at 343 Industries working on Halo In
 
 - I grew up on a cattle ranch in Northeaster Colorado. 
 - I have my undergraduate degree in Computer Science from the University of Colorado in Boulder.
-- I have my Masters Degree in *deep breath* Human Centered Design and Engineering from the University of Washington.
+- I have my Masters Degree in Human Centered Design and Engineering from the University of Washington.
 
 # I like
 
@@ -29,7 +29,7 @@ You will find me as a Technical UX Designer at 343 Industries working on Halo In
 - I only had eleven students in my graduating class from high school.
 - I've built a sculpture of a dragon out of sheet steel and over 1000 CDs.
 - I took two semesters of Chinese in Undergrad. Every once in a while my brain can translate characters I see into phonetic sounds (even if I don't remember meaning anymore).
-- The first thing I did after forking this template from [Michael D'Angelo](https://mldangelo.com/) was to add Dark Mode. I use it on about everything I possibly can. 
+- I use Dark Mode and Night Light on everything I possibly can. I even added Dark Mode to this site using [this React Hook](https://www.npmjs.com/package/use-dark-mode). 
 
 # Favorite Games
 - Outer Wilds [(yes I totally wrote one of my graduate school papers on it.)](../pdfs/The_Ship_Log_in_Outer_Wilds.pdf?target="_blank")

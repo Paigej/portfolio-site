@@ -2,6 +2,12 @@
 
 .markdown {
 
+  .imgFlex {
+    display: flex;
+    justify-content: center;
+    margin:2%;
+  }
+
   img {
     max-width: 70%;
     height: auto;

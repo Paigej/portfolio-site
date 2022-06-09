@@ -28,7 +28,7 @@ function SideBar() {
       <section className="blurb">
         <h2>About</h2>
         <p>Hi, I&apos;m Paige. I like building things. I am a Technical UX Designer for
-          343 Industries where I design, build, and interate on features for Halo Infinite.
+          343 Industries where I design, build, and iterate on features for Halo Infinite.
         </p>
         <ul className="actions">
           <li>

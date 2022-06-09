@@ -17,7 +17,7 @@ const data = [
     subtitle: '',
     image: '/images/projects/HaloInfinite.jpeg',
     image_dark: '/images/projects/HaloInfinite_dark.jpeg',
-    link: '/resume',
+    link: '',
     year_start: '2018',
     year_end: '2022',
     desc:
