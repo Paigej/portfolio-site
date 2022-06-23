@@ -19,6 +19,7 @@ const Stats = lazy(() => import('./pages/Stats'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
+    <script src="noflash.js" />
     <Suspense fallback={<Main />}>
       <Switch>
         <Route exact path="/" component={Index} />
