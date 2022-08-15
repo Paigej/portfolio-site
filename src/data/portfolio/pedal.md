@@ -4,7 +4,7 @@
 <div class="link-to" id="introduction"></div>
 <div class="title"><h3>Introduction</h3></div>
 
-<img class="headerImage" src="/images/projects/Pedal/Pedal_Vector.svg" alt="alt text placeholder"/>
+<img class="headerImage" src="/images/portfolio/Pedal/Pedal_Vector.svg" alt="alt text placeholder"/>
 
 This was my Capstone Project for my graduate program in HCDE, to view other projects like this in the program, you can view [past capstone projects](https://hcde.washington.edu/cap/past-capstone-projects). I spent one credit in the Winter 2022 quarter conducting formative research and ideating to narrow in on what my focus would be, before hitting the ground running in Spring 2022 quarter for the 10 week project.
 
@@ -24,7 +24,7 @@ Pain in the hands and/or wrists, as well as discomfort is only going to become m
 
 <div class="link-to" id="the process"></div>
 <div class="title"><h3>The Process</h3></div>
-<img src="/images/projects/Pedal/Process.svg" alt="alt text placeholder" style="width:100%;max-width:100%"/>
+<img src="/images/portfolio/Pedal/Process.svg" alt="alt text placeholder" style="width:100%;max-width:100%"/>
 
 # Formative Research
 
@@ -38,8 +38,8 @@ I conducted a survey with the aim of gathering data to help categorize and inves
 
 The survey was primarily shared on twitter, and circulated amongst the gaming and disability community.  For context on the respondents, only 7 of the 105 participants responded that they never end gameplay sessions before they would like to. 
 
-<img class="headerImage displayInLight" src="/images/projects/Pedal/Survey_Light.png" alt="alt text placeholder"/>
-<img class="headerImage displayInDark" src="/images/projects/Pedal/Survey_Dark.png" alt="alt text placeholder"/>
+<img class="headerImage displayInLight" src="/images/portfolio/Pedal/Survey_Light.png" alt="alt text placeholder"/>
+<img class="headerImage displayInDark" src="/images/portfolio/Pedal/Survey_Dark.png" alt="alt text placeholder"/>
 
 
 The most frequent cause that interrupted game sessions was “External Factors, followed by Stress and Emotional Fatigue, and finally Physical Pain. Additional causes mapped closely to the main cause that people experienced.
@@ -62,12 +62,12 @@ Looking back at my success criteria for finding a barrier to research and design
 
 I interviewed 7 different survey respondents, 2 of whom requested written interviews. 
 
-<img class="headerImage" src="/images/projects/Pedal/interview1.png" alt="alt text placeholder"/>
+<img class="headerImage" src="/images/portfolio/Pedal/interview1.png" alt="alt text placeholder"/>
 
 
 # Ideation
 
-<img class="headerImage" src="/images/projects/Pedal/Affinity_Map.png" alt="alt text placeholder"/>
+<img class="headerImage" src="/images/portfolio/Pedal/Affinity_Map.png" alt="alt text placeholder"/>
 
 
 The main way I organized my learnings in the space was through affinity mapping.  Having a visual in a shared space like Figma made it accessible for me to bring in some of my interviewees to discuss some of the topics and brainstorm ideas. 
@@ -77,10 +77,10 @@ The main way I organized my learnings in the space was through affinity mapping.
 
 # Protoyping
 
-<img class="headerImage" src="/images/projects/Pedal/Proto1.jpg" alt="alt text placeholder"/>
-<img class="headerImage" src="/images/projects/Pedal/Proto2.jpg" alt="alt text placeholder"/>
-<img class="headerImage" src="/images/projects/Pedal/Printers.jpg" alt="alt text placeholder"/>
-<img class="headerImage" src="/images/projects/Pedal/Playtesting.jpg" alt="alt text placeholder"/>
+<img class="headerImage" src="/images/portfolio/Pedal/Proto1.jpg" alt="alt text placeholder"/>
+<img class="headerImage" src="/images/portfolio/Pedal/Proto2.jpg" alt="alt text placeholder"/>
+<img class="headerImage" src="/images/portfolio/Pedal/Printers.jpg" alt="alt text placeholder"/>
+<img class="headerImage" src="/images/portfolio/Pedal/Playtesting.jpg" alt="alt text placeholder"/>
 
 Gathering actionable feedback without a high fidelity prototype was difficult. The durability of initial prototypes hindered use and feedback, so getting to a high fidelity prototype and iterating from there was important. 
 
@@ -91,33 +91,29 @@ Gathering actionable feedback without a high fidelity prototype was difficult. T
 
 # Design and Tools 
 
-<img class="displayInLight headerImage" src="/images/projects/Pedal_Light.jpg" alt="alt text placeholder"/>
-<img class="displayInDark headerImage" src="/images/projects/Pedal_Dark.jpg" alt="alt text placeholder"/>
+<img class="displayInLight headerImage" src="/images/portfolio/Pedal_Light.jpg" alt="alt text placeholder"/>
+<img class="displayInDark headerImage" src="/images/portfolio/Pedal_Dark.jpg" alt="alt text placeholder"/>
 
 ## Parametric Gears and Racks
-<img class="headerImage" src="/images/projects/Pedal/RhinoNodegraph.png" alt="alt text placeholder"/>
-<img class="headerImage" src="/images/projects/Pedal/RhinoGearRack.png" alt="alt text placeholder"/>
-
-
+<img class="headerImage" src="/images/portfolio/Pedal/RhinoNodegraph.png" alt="alt text placeholder"/>
+<img class="headerImage" src="/images/portfolio/Pedal/RhinoGearRack.png" alt="alt text placeholder"/>
 
 ## Tolerances and Fitment 
 
 Each piece is modular and designed to “friction fit” together, which required a lot of iteration in order to tune tolerances. Each piece needed to be designed to reduce or eliminate the amount of support needed, and oriented in the best direction to 3D print. 
 
-<img class="headerImage" src="/images/projects/Pedal/InventorAssembly.png" alt="alt text placeholder"/>
-
-
+<img class="headerImage" src="/images/portfolio/Pedal/InventorAssembly.png" alt="alt text placeholder"/>
 
 # Assembly Instructions and File Hosting
 
-<img class="headerImage displayInLight" style="width:50%;transform: translate(50%, 0);" src="/images/projects/Pedal/Printables_Logo_Light.svg" alt="alt text placeholder"/>
-<img class="headerImage displayInDark" style="width:50%;transform: translate(50%, 0);" src="/images/projects/Pedal/Printables_Logo_Dark.svg" alt="alt text placeholder"/>
+<img class="headerImage displayInLight" style="width:50%;transform: translate(50%, 0);" src="/images/portfolio/Pedal/Printables_Logo_Light.svg" alt="alt text placeholder"/>
+<img class="headerImage displayInDark" style="width:50%;transform: translate(50%, 0);" src="/images/portfolio/Pedal/Printables_Logo_Dark.svg" alt="alt text placeholder"/>
 
-<img class="headerImage" src="/images/projects/Pedal/Pedal_Printables.jpg" alt="alt text placeholder"/>
+<img class="headerImage" src="/images/portfolio/Pedal/Pedal_Printables.jpg" alt="alt text placeholder"/>
 
 The files are hosted free to download on [Printables.com](https://www.printables.com/model/220907-xboxpc-copilot-controller-pedals). The instructions for assembly were written up and went through several iterations based on feedback received from folks who attempted to 3d print the final version of the pedals. 
 
-<img class="headerImage" src="/images/projects/Pedal/Pedal_Assembly.png" alt="alt text placeholder"/>
+<img class="headerImage" src="/images/portfolio/Pedal/Pedal_Assembly.png" alt="alt text placeholder"/>
 
 There are 30 individual parts that make up the final assembly.
 
@@ -126,23 +122,23 @@ There are 30 individual parts that make up the final assembly.
 
 # Showcase
 
-<img class="headerImage displayInLight" src="/images/projects/Pedal/HCDEAward_Light.svg" alt="alt text placeholder"/>
-<img class="headerImage displayInDark" src="/images/projects/Pedal/HCDEAward_Dark.svg" alt="alt text placeholder"/>
+<img class="headerImage displayInLight" src="/images/portfolio/Pedal/HCDEAward_Light.svg" alt="alt text placeholder"/>
+<img class="headerImage displayInDark" src="/images/portfolio/Pedal/HCDEAward_Dark.svg" alt="alt text placeholder"/>
 
-<img class="headerImage" src="/images/projects/Pedal/Showcase_Demo.jpg" alt="alt text placeholder"/>
+<img class="headerImage" src="/images/portfolio/Pedal/Showcase_Demo.jpg" alt="alt text placeholder"/>
 
 I brought the earlier prototypes as well as the final prototype to demo at the HCDE Capstone Showcase. It was great to engage with the larger community around my project.  I'm honored to have received an honorable mention for "Excellence in Technology."
 
 [//]: # (More info here)
 
-<img class="headerImage" src="/images/projects/Pedal/showcase_me.jpeg" alt="alt text placeholder"/>
+<img class="headerImage" src="/images/portfolio/Pedal/showcase_me.jpeg" alt="alt text placeholder"/>
 
 
 I had the opportunity to work on my Visual Design skills when it came it to the poster displayed for the showcase. I shamelessly stole UW's purple, and attempted to balance between content and visuals, while letting the hero image of the pedals steal the show, since my design and outcome were much stronger than my focus on the research space.
 
 <div class="imgFlex">
-    <img src="/images/projects/Pedal/Poster.jpg" alt="alt text placeholder" style="width:45%;padding:1%">
-    <img src="/images/projects/Pedal/Poster_Layout.jpg" alt="alt text placeholder" style="width:45%;padding:1%">
+    <img src="/images/portfolio/Pedal/Poster.jpg" alt="alt text placeholder" style="width:45%;padding:1%">
+    <img src="/images/portfolio/Pedal/Poster_Layout.jpg" alt="alt text placeholder" style="width:45%;padding:1%">
 </div>
 
 

@@ -6,7 +6,7 @@ import raw from 'raw.macro';
 import Main from '../../layouts/Main';
 
 // uses babel to load contents of file
-const markdown = raw('../../data/pedal.md');
+const markdown = raw('../../data/portfolio/pedal.md');
 
 // Make all hrefs react router links
 const LinkRenderer = ({ ...children }) => <Link {...children} />;
@@ -28,7 +28,7 @@ const Pedal = () => (
     <article className="post markdown" id="pedal">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/projects/pedal">3D Printed Assistive Pedals for Xbox Copilot</Link></h2>
+          <h2 data-testid="heading"><Link to="/portfolio/pedal">3D Printed Assistive Pedals for Xbox Copilot</Link></h2>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>

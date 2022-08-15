@@ -21,11 +21,10 @@ const Index = () => (
         or you can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">some fun stats about me</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
+        view <Link to="/stats">some fun stats about me. </Link> {' '}
       </p>
       <p> If you have feedback about this site, or find a typo and it really really bothers you,
-        I&apos;d love to hear about it!
+        I&apos;d love to hear about it! You can find the source code <a href="https://github.com/Paigej/portfolio-site">here.</a>
       </p>
     </article>
   </Main>

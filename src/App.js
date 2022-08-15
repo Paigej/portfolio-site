@@ -12,20 +12,22 @@ const About = lazy(() => import('./pages/About'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
-const Projects = lazy(() => import('./pages/Projects'));
-const Pedal = lazy(() => import('./pages/Projects/Pedal'));
+const Portfolio = lazy(() => import('./pages/Portfolio'));
+const Pedal = lazy(() => import('./pages/Portfolio/Pedal'));
+const Halo = lazy(() => import('./pages/Portfolio/Halo'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
-    <script src="noflash.js" />
+    <script src="../noflash.js" />
     <Suspense fallback={<Main />}>
       <Switch>
         <Route exact path="/" component={Index} />
         <Route path="/about" component={About} />
-        <Route exact path="/projects" component={Projects} />
-        <Route path="/projects/pedal" component={Pedal} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route path="/portfolio/pedal" component={Pedal} />
+        <Route path="/portfolio/halo" component={Halo} />
         <Route path="/stats" component={Stats} />
         <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />

@@ -28,7 +28,7 @@ const data = [
     key: 'countries',
     label: 'Titles Shipped',
     value: 2,
-    link: '/projects',
+    link: '/portfolio',
   },
   {
     key: 'location',

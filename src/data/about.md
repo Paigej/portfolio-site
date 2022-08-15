@@ -1,7 +1,7 @@
 
 # Intro
 
-I am a UX Designer, maker, skier, coffee addict, video game enthusiast, and a huge proponent of sweatpants. I love finding joy in the people that I'm surrounded by, and trying to bring that same joy to others. I live everyday striving to find what I have to offer the people around me and how I can live that out. 
+I am a UX Designer, maker, skier, coffee lover, video game enthusiast, and a huge proponent of sweatpants. I love finding joy in the people that I'm surrounded by, and trying to bring that same joy to others. I live everyday striving to find what I have to offer the people around me and how I can live that out. 
             
 # Currently
 
@@ -9,7 +9,7 @@ You will find me as a Technical UX Designer at 343 Industries working on Halo In
 
 # Some history
 
-- I grew up on a cattle ranch in Northeaster Colorado. 
+- I grew up on a cattle ranch in Northeastern Colorado. 
 - I have my undergraduate degree in Computer Science from the University of Colorado in Boulder.
 - I have my Masters Degree in Human Centered Design and Engineering from the University of Washington.
 
@@ -34,9 +34,8 @@ You will find me as a Technical UX Designer at 343 Industries working on Halo In
 # Favorite Games
 - Outer Wilds [(yes I totally wrote one of my graduate school papers on it.)](../pdfs/The_Ship_Log_in_Outer_Wilds.pdf?target="_blank")
 - Spyro The Dragon
-- Skyrim (note the dragon theme)
+- Skyrim 
 - Oblivion 
-- Morrowind (note the Elder Scrolls theme)
 - Crash Team Racing
 - The Last of Us (1&2)
 
