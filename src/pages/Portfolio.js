@@ -9,7 +9,7 @@ import data from '../data/portfolio';
 const Portfolio = () => (
   <Main
     title="Portfolio"
-    description="Learn about Paige Johnson's projects."
+    description="Learn about Paige Cuthbertson's projects."
   >
     <article className="post" id="portfolio">
       <header>

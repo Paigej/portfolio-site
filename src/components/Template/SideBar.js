@@ -14,8 +14,8 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Paige Johnson</h2>
-        <p><a href="mailto:paige.l.johns@gmail.com">paige.l.johns@gmail.com</a></p>
+        <h2>Paige Cuthbertson</h2>
+        <p><a href="mailto:paige.l.cuthberts@gmail.com">paige.l.cuthberts@gmail.com</a></p>
       </header>
       <div>
         <ThemeBtn /><br />
@@ -37,7 +37,7 @@ const SideBar = () => (
     </section>
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Paige Johnson <Link to="/">paigejohnson.me</Link>.</p>
+      <p className="copyright">&copy; Paige Cuthbertson <Link to="/">paigecuthbertson.com</Link>.</p>
     </section>
   </section>
 );
